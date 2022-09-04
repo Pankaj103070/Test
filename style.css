@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.ul-1{
+    background-color: black;
+}
+#horizontal-list{
+    list-style: none;
+}
+#horizontal-list li{
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#horizontal-list li:hover{
+    background-color: white;
+    color: black;
+}
+#cotainer{
+    display: flex;
+}
+#sider{
+   background-color: lightgray;
+    flex-shrink: 1;
+    height: 1025px;
+    padding: 30px;
+    margin-top: 0px;
+    
+}
+#sider ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+#sider ul li{
+   margin: 30px 30px 0px 0px;
+}
+#sider ul li:hover{
+    background-color: black;
+    color: white;
+    /* border: 1px solid red; */
+  
+}
+#main-content{
+    /* border: 1px solid green; */
+    flex-grow: 1;
+}
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+#side-ad{
+   
+    /* border: 1px solid blue; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.ad{
+    border: 1px solid gray;
+    text-align: center;
+    
+    
+}
+#footer{
+    /* border: 1px solid gray; */
+    padding: 50px;
+    height: 45px;
+    background-color: rgb(122, 121, 121);
+    color: white;
+    
+}
+
+.hd{
+    margin-top:60px;
+}
+.hd p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.hd h1{
+    color: green;
+    font-family: sans-serif;
+}
+#ad1{
+    height: 80px;
+    width: 300px;
+}
+#ad2{
+    height: 120px;
+}
+#ad3{
+    height: 80px;
+}
+#ad4{
+    height: 120px;
+}
+#ad5{
+    height: 80px;
+}
+#ad6{
+    height: 120px;
+}
+#icon{
+    display: flex;
+}
+#w3{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+#icon-div{
+    margin-left: 400px;
+    display: flex;
+}
+#icon-div div{
+    margin: 20px 30px 0px 0px;
+    font-size: 20px;
+}
+#icon-div div:hover{
+    background-color: black;
+    color: white;
+}
